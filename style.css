@@ -1,0 +1,70 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Playfair Display", serif;
+}
+
+h1,
+h2 {
+  font-family: "Arial", sans-serif;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+footer {
+  background-color:  background-color: rgb(224, 209, 185);
+
+  color: white;
+}
+
+.card-img-top {
+  height: 200px; /* Atur tinggi gambar */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+.custom-bg {
+  background-color: #f8f9fa;
+}
+.custom-btn {
+  background-color: rgb(135, 92, 24);
+  color: white;
+}
+.custom-btn:hover {
+  background-color: #f4e1ba;
+}
+
+.bg-footer {
+  background-color: rgb(224, 209, 185);
+}
+.contact-container {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.about-container {
+  margin: 50px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.text-brown {
+  color: #6f4e37;
+}
+.bg-brown {
+  background-color: #6f4e37;
+}
+.border-brown {
+  border-color: #6f4e37 !important;
+}
+.btn-outline-brown {
+  color: #6f4e37;
+  border-color: #6f4e37;
+}
+.btn-outline-brown:hover {
+  background-color: #6f4e37;
+  color: #fff;
+}
+table.table {
+  border: 1px solid #6f4e37;
+}
