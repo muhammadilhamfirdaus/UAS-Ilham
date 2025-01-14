@@ -15,7 +15,7 @@
     <div class="contact-container">
         <h1>Kontak Kami</h1>
         <p>Jika Anda memiliki pertanyaan, silakan hubungi kami di:</p>
-        <p>Email: info@kuliner.com</p>
+        <p>Email: firdausburger@gmail.com</p>
         <p>Telepon: 083127079137</p>
     </div>
 
