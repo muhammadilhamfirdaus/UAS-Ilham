@@ -3,7 +3,7 @@
     <div class="mb-3 text-end">
         <a href="?page=makananAdd" class="btn btn-outline-brown btn-sm">[+] Tambah Data Baru</a>
     </div>
-    <table class="table table-hover border-brown">
+    <table id="DataTables" class="table table-hover border-brown">
         <thead class="bg-brown text-white">
             <tr>
                 <th class="text-center">No</th>
@@ -23,7 +23,7 @@
                 <tr>
                     <td colspan="4" class="text-center text-muted"><i>Data tidak tersedia</i></td>
                 </tr>
-            <?php } else {
+                <?php } else {
                 while ($data = mysqli_fetch_array($sql)) { ?>
                     <tr>
                         <td class="text-center"><?= $nomor++; ?></td>
@@ -34,7 +34,7 @@
                             <a href="?page=makananDelete&id=<?= $data['id_makanan']; ?>" class="btn btn-outline-danger btn-sm" onclick="return confirm('Yakin ingin menghapus data ini?');">Hapus</a>
                         </td>
                     </tr>
-                <?php }
+            <?php }
             } ?>
         </tbody>
     </table>
